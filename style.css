@@ -72,7 +72,7 @@ input:focus, textarea:focus {
 
 textarea {
     height: 160px;
-    resize: vertical;
+    
     font-family: Arial, sans-serif;
 }
 
@@ -94,4 +94,39 @@ h3 {
 mark {
     background: #fff1a8;
     color: black;
+}
+
+
+
+.match-details {
+    margin-top: 30px;
+}
+
+.match-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.match-item p {
+    text-align: left;
+    margin: 6px 0 0;
+    font-size: 14px;
+}
+
+
+
+.replace-box {
+    margin-top: 35px;
+}
+
+.replace-box input {
+    margin-bottom: 15px;
+}
+
+#replaceResult {
+    border: 1px solid #ccc;
+    padding: 15px;
+    min-height: 60px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
 }

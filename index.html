@@ -33,10 +33,7 @@
         Ignore Case (i)
     </label>
 
-    <label>
-        <input type="checkbox" id="multiline">
-        Multiline (m)
-    </label>
+   
 </div>
 
         </div>
@@ -50,6 +47,25 @@
             <h3>Matches: <span id="count">0</span></h3>
             <div id="result"></div>
         </div>
+
+
+<div class="match-details">
+    <h3>Match Details</h3>
+    <div id="matchList"></div>
+</div>
+
+
+<div class="replace-box">
+    <h3>Regex Replace</h3>
+
+    <label>Replace with</label>
+    <input type="text" id="replaceText" placeholder="Enter replacement...">
+
+    <h3>Replaced Text</h3>
+    <div id="replaceResult"></div>
+</div>
+
+
     </div>
 
     <script src="script.js"></script>
