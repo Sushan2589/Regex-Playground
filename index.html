@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Regex Playground</h1>
+        <p>Test your regular expressions</p>
+
+        <div class="regex-box">
+            <label>Regular Expression</label>
+            <div class="regex-input">
+                <span>/</span>
+                <input type="text" id="regex" placeholder="Enter regex...">
+                <span>/</span>
+            </div>
+
+            
+<div class="flags">
+    <label>
+        <input type="checkbox" id="global" checked>
+        Global (g)
+    </label>
+
+    <label>
+        <input type="checkbox" id="ignoreCase">
+        Ignore Case (i)
+    </label>
+
+    <label>
+        <input type="checkbox" id="multiline">
+        Multiline (m)
+    </label>
+</div>
+
+        </div>
+
+        <div class="test-box">
+            <label>Test String</label>
+            <textarea id="testText" placeholder="Write something to test..."></textarea>
+        </div>
+
+        <div class="result-box">
+            <h3>Matches: <span id="count">0</span></h3>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+c
